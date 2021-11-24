@@ -1,7 +1,7 @@
 Role Name
 =========
 
-Super usefull role to change banners on Cisco Routers
+Super usefull role to change banners on Cisco Routers.
 
 Requirements
 ------------
