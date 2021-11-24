@@ -1,0 +1,6 @@
+---
+- name: configure the login banner default
+  iosxr_banner:
+    banner: login
+    text: "{{ text | default('This is BGPTELECOM Property. No Logins allowed, only dirty hacks!') }}"
+    state: present
